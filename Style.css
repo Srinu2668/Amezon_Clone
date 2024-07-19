@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    border: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.navbar
+{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+}
+.rough
+{
+    height: 60px;
+    width: 100%;
+}
+.nav-logo
+{
+    height: 56px;
+    width: 130px;   
+   /* margin-left: 5px;
+    margin-right: 5px;*/
+}
+.nav-logo1
+{
+    height: 56px;
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+    padding: 1px 8px 0px 6px;
+}
+/* abbres and update */
+.nav-abb
+{
+    width: 200px;
+    height: 50px;
+    margin: 5px 2px 5px 0px;
+    padding-left: 9px;
+    padding-right: 9px;
+    display: flex;
+    align-items: center;
+}
+.loc-up
+{
+ display: flex;
+}
+.loc-up p
+{
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.loc-up i{
+    font-size: 16px;
+}
+
+span
+{
+    padding-left: 18px;
+    font-size: 12px; 
+    color: #cccccc;
+}
+
+/* hover method */
+.nav-hover:hover
+{
+    border: 1.5px solid white;
+}
+
+/* search bar*/
+.nav-search
+{
+    display: flex;
+    height: 38px;
+    width: 750px;
+    justify-content: space-evenly;
+}
+.searchAll
+{
+    border: none;
+    padding-left: 5px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.searchAll2
+{
+    border: none;
+    padding-left: 10px;
+}
+.nav-search select
+{
+    height: 38px;
+    width: 50px;
+    background-color: #cccccc;
+    color:#7e7f7f;
+}
+.nav-search input
+{
+    height: 38px;
+    flex-grow: 1;/* the use of flex- grow given below */
+     /* first i hava total main div of nev-search width 620px for searchAll for option (all) box i given 50px then for tow icon of google-img and search-img i give 
+      45px and 45px width to the both remain amount the width who much i don't need to know thats why
+      i put it flex-grow give do.. remaining amount of space is converted to the searc bar area*/
+}
+.google-img i
+{
+    height: 38px;
+    width: 45px;
+    color: #7e7f7f;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-img i{
+    height: 38px;
+    width: 45px;
+    color: #0f1111;
+    background-color: rgb(227, 194, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* search bar hover */
+.nav-search:hover
+{
+    border-radius: 8px;
+    border: 2px rgb(227, 194, 73) solid;
+    
+}
+
+/* sign in */
+.signin
+{
+    height: 40px;
+    width: 110px;
+    padding: 0px 9px 10px 9px ;
+}
+.sign
+{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.account
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* return order*/
+.return-order
+{
+    height: 40px;
+    width: 80px;
+    padding: 0px 9px 10px 9px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* for cart */
+.mycat
+{
+    font-size: 30px;
+    padding: 9px 9px 9px 9px ;
+    margin-top: 1px;
+}
+
+/* menu bar*/
+.menubar
+{
+    height: 39px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+   
+}
+a{
+    text-decoration: none;
+    margin: 5px 0px 6px 0px;
+    padding: 8px 9px 8px 9px;
+}
+
+/* main block */
+
+.herobackimg
+{
+    background-image: url("images/hero_image.jpg");
+    background-size: cover;
+    height:350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.heroblock
+{
+    height: 30px;
+    width: 75%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative ;
+    top: 300px;
+    
+}
+.heroletter
+{
+    color: black;
+    font-size: 14px;
+}
+.heroletter a
+{
+    color:#007185;
+}
+
+
+/* items */
+.contentblocks
+{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.clothes
+{
+    height:450px;
+    width: 330px;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+}
+.img1
+{
+    height: 370px;
+    width: 290px;
+    background-size: cover;
+    align-self:center ;
+}
+.clothes p
+{
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
+    margin: 7px 0px 5px 20px;
+}
+.clothes a
+{
+    font-size:12px;
+    color: #007185;
+    font-weight: 600;
+    margin: 0px 0px 0px 10px;
+}
+
+/* longcut */
+.longcut
+{
+    height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    display:flex;
+    align-items: center;
+}
+
+/* ad */
+.add
+{
+    height: 230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
+}
+
+.nav-hover1:hover
+{
+   border: 1.5px solid #0f1111;
+}
+
+
+/* footer */
+
+#backtotop
+{
+    height: 40px;
+    width: 100%;
+    background-color: #293f56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* back to the top */
+#backtotop a
+{
+    font-size: 12px;
+}
+/* with us */
+
+.about
+{
+    height: 320px;
+    width: 100%;
+    background-color:#222f3d ;
+    display: flex;
+    justify-content: center;
+}
+.get-to-know-us a
+{
+    display: block;
+    font-size: 14px;
+    color: #dddddd;
+} 
+.connected-with-us a
+{
+    display: block;
+    font-size: 14px;
+    color: #dddddd;
+} 
+.make-money-with-us a
+{
+    display: block;
+    font-size: 14px;
+    color: #dddddd;
+} 
+.let-us-help-you a
+{
+    display: block;
+    font-size: 14px;
+    color: #dddddd;
+} 
+.head-foot
+{
+    font-weight: bolder;
+}
+.tail-foot
+{
+    margin: 10px;
+    padding: 0px;
+    font-weight: lighter;
+}
+
+.about-point
+{
+    height: 320px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.tail-foot:hover
+{
+    text-decoration:underline;
+}
+
+/* socialmedia table*/
+.socialmedia
+{
+    height: 230px;
+    width: 100%;
+    background-color:#1c1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sociaTable
+{
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+table
+{
+   height: 200px;
+   width: 80%;
+   font-size: 10px;
+   text-align: left;
+}
+table tr td{
+    padding-left:25px;
+    padding-right:25px;
+}
+.sendoff
+{
+    height: 30px;
+    display: block;
+    background-color:#1c1e1e;
+    text-align: center;
+    font-size: 12px;   
+}
